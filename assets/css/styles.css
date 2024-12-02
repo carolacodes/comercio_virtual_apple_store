@@ -1,0 +1,362 @@
+
+
+/* BODY */
+body {
+    background-color: #f5f5f7;
+    /*background-color: rgba(245, 245, 245, 0.742); /* color de fondo del body */
+}
+
+/*NAV*/
+
+.navbar-brand img{
+    width: auto;
+    height: 22px;
+}
+
+.navbar-nav {
+    margin: auto; /* Esto centrará horizontalmente los elementos */ /*iconos y los links tienen el mismo margen*/
+    display: flex; /* Esto permitirá que los elementos se centren horizontalmente */
+}
+
+.navbar-collapse {
+    justify-content: center; /* Esto centrará horizontalmente todos los elementos */
+}
+
+.navbar-nav .nav-link {
+    padding-right: 10px; /* Agrega un espacio entre los elementos del menú */
+}
+
+.dropdown-menu {
+    font-size: 0.875rem; /* Ajusta el tamaño de fuente para que sea más pequeño */
+    padding: 0.25rem 0; /* Ajusta el padding del menú desplegable */
+}
+
+.dropdown-menu .dropdown-item {
+    padding: 0.25rem 0.75rem; /* Ajusta el padding de los elementos del menú */
+    font-size: 0.875rem; /* Asegúrate de que el tamaño de fuente coincide */
+    display: inline-block; /* Ajustar el ancho al contenido */
+}
+
+
+/* Opcional: Ajusta el tamaño de las imágenes dentro de .navbar-brand */
+/*
+.navbar-brand img {
+    width: 24px; /* Establece el ancho deseado */
+    /*height: auto; /* Permite que la altura se ajuste automáticamente */
+    /*margin-right: 5px; /* Ajusta el margen derecho si es necesario */
+/*} 
+
+
+
+/*PROD INICIO*/
+.d-prod img{
+    max-height: 100px;
+    width: auto;
+    
+}
+
+.row.d-prod img{
+    max-height: 100px;
+    width: auto;
+    
+}
+
+
+/* CARRUSEL */
+
+.carousel-item img {
+    height: 700px; /* Establece la altura deseada para las imágenes */
+    object-fit: cover; /* Ajusta la imagen dentro de su contenedor sin deformarla */
+}
+
+
+
+.carousel-caption p {
+    
+    font-family: 'Inter', sans-serif; /* Especifica la fuente de Google Fonts */
+    font-weight: bold; /* Aplica el estilo de negrita (bold) */
+}
+
+.carousel-caption h2{
+    font-size: 48px;
+    letter-spacing: -.002em;
+    font-family: 'Inter', sans-serif; /* Especifica la fuente de Google Fonts */
+    font-weight: bold; /* Aplica el estilo de negrita (bold) */
+}
+
+/*.carousel-caption a.carousel-link{
+    margin-top: 100px; /* Puedes ajustar este valor según sea necesario para mover el enlace hacia abajo */
+/*}
+
+/*CARDS*/
+
+/*CARDS DE METODOS DE PAGO, SUCURSALES, CONTACTANOS*/
+
+.d-parrafo_apple p{
+    margin-left: 70px;
+    margin-right: 30px;
+    /*text-align: center;  Asegura que el texto esté centrado */
+    font-family: 'Inter', sans-serif; /* Especifica la fuente de Google Fonts */
+    font-weight: bold; /* Aplica el estilo de negrita (bold) */
+    color: #6e6e73;
+    max-width: 1000px; /* Establece el ancho máximo del párrafo (ajusta el contenedor)*/
+}
+
+/*CARDS MOSTRANDO PRODUCTOS*/
+
+.d-h2Nov_card h2{
+    letter-spacing: -.002em;
+    font-family: 'Inter', sans-serif; /* Especifica la fuente de Google Fonts */
+    font-weight: bold; /* Aplica el estilo de negrita (bold) */
+}
+
+/*IMAGEN UNICA WATCH*/
+
+.row .watch_img img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: max-content;
+}
+
+/*
+.row .serv_img img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    width: 80%;
+    height: max-content;
+}
+*/
+
+/*FOOTER*/
+
+footer{
+    background-color: #98989a;
+}
+
+.row.footer_columnas{
+    /*border-top: 1px solid #000; /* Cambia el color y el grosor del borde según lo necesites */
+    border-bottom: 1px solid #2e2e2e; /* Cambia el color y el grosor del borde según lo necesites */
+    padding-top: 20px;
+}
+
+.row.footer_columnas a{
+    font-family: 'Inter', sans-serif;
+    color: #2e2e2e;
+}
+
+/*
+.row.footer_columnas a.link-underline:hover {
+    text-decoration-color: gray; /* Cambia a gris cuando el cursor está sobre el enlace 
+} */
+
+.row.footer_columnas a.col_icon{
+    
+    margin-right: 20px;
+    margin-left: 20px;
+    text-decoration: none; /* Elimina el subrayado */
+}
+
+.row.footer_columnas a.col_icon img{
+    width: 30px;
+    margin-top: 20px;
+}
+
+
+/*LOGIN*/
+
+.row div.form_log{
+    /*background-color:#6e6e73;*/
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color */
+    padding: 12%;
+}
+
+.row h2.login_text{
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+
+}
+
+.row p.login_parrafo{
+    font-family: 'Inter', sans-serif;
+
+}
+.row div.link_passw{
+    border-bottom: 1px solid #98989a;
+}
+
+/*REGISTRARSE*/
+
+.row div.form-regis{
+    /*background-color:#6e6e73;*/
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5); /* Horizontal offset, Vertical offset, Blur radius, Color */
+    padding: 10%;
+}
+
+.row h2.h2-regis{
+    font-family: 'Inter', sans-serif;
+    margin-top: 15%;
+    margin-right: 20%;
+}
+
+/*CONTACTO*/
+
+.row div.form_contc{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    padding: 12%;
+}
+
+.row h2.contc_h2{
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.row p.contc_parraf{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+/*ACERCA DE NOSOTROS*/
+
+.row h2.h2_1ro{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.row p.p_1ro{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.row img.img_1ro{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    /*margin-left: 10%;*/
+}
+
+.row img.img_2do{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+    /*margin-left: 30%;*/
+    width: 60%;
+    
+}
+
+/*TERMINOS Y CONDICIONES*/
+
+.row .term_bienv h2{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.row .term_bienv p{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.row .term_list h2{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.row .term_list p{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+/*COMERCIALIZACION*/
+
+.row .img-comer img{
+    border-radius: 10px;
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}  
+
+.row .txt-comer h2{
+    font-family: 'Inter', sans-serif;
+}
+
+.row .txt-comer p{
+    font-family: 'Inter', sans-serif;
+    text-align: justify;
+}
+
+.row img.img-pagos {
+    width: 100px;
+    height: auto;
+}
+
+/* PAGINA PRODUCTOS */
+.row .col-4 .card-productos{
+    border-radius: 10px;
+}
+
+.row .col-4 .card-productos:hover{
+    box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
+}
+
+.row .col .card-productos img{
+        width: 100%; /* Asegura que la imagen cubra todo el ancho de la tarjeta */
+        height: 300px; /* Altura fija para las imágenes */
+        object-fit: cover; /* Asegura que la imagen cubra completamente el espacio asignado sin distorsionarse */
+}
+
+.row .col-4 .card-productos .card-body p{
+    flex: 1;
+    font-family: 'Inter', sans-serif;
+}
+
+.row .col-4 .card-productos .card-body h5{
+    font-family: 'Inter', sans-serif;
+    flex: 1;
+}
+
+h2.titulo-productos{
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*CATALOGO*/
+
+/*NAV DE CATALOGO*/
+.nav-catalogo{
+    background-color: #2e2e2e;
+}
+
+.link-catalogo {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+}
+
+.link-catalogo a{
+    color: #f5f5f7;
+    border-radius: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link-catalogo a:hover{
+    color: #f5f5f7;
+    box-shadow: 1px 1px 10px rgba(220, 219, 219, 0.5);
+}
+
+
+/*MAC*/
+
+.h2-cata-mac {
+    font-family: 'Inter', sans-serif;
+}
+
+
+/*INICIO ADMINI*/
+
+.col .inadm{
+    font-family: 'Inter', sans-serif;
+}
